@@ -9,7 +9,6 @@ from odoo.addons.base.ir.ir_model import MODULE_UNINSTALL_FLAG
 class IrModel(models.Model):
     _inherit = 'ir.model'
 
-    @api.multi
     def _drop_table(self):
         # Allow to skip this step during model unlink
         # The super method crashes if the model cannot be instantiated
@@ -17,17 +16,10 @@ class IrModel(models.Model):
             return True
         return super(IrModel, self)._drop_table()
 
-    @api.multi
-    def _inherited_models(self, field_name, arg):
-        """this function crashes for undefined models"""
-        result = dict((i, []) for i in self.ids)
-        existing_model_ids = [
-            this.id for this in self if this.model in self.env
-        ]
-        super_result = super(IrModel, self.browse(existing_model_ids))\
-            ._inherited_models(field_name, arg)
-        result.update(super_result)
-        return result
+    @api.depends()
+    def _inherited_models(self):
+        existing_model_ids = self.filtered(lambda x: x.model in self.env)
+        super(IrModel, existing_model_ids)._inherited_models()
 
 
 class IrModelFields(models.Model):
