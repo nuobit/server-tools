@@ -18,6 +18,7 @@ class IrModel(models.Model):
 
     @api.depends()
     def _inherited_models(self):
+        """this function crashes for undefined models"""
         existing_model_ids = self.filtered(lambda x: x.model in self.env)
         super(IrModel, existing_model_ids)._inherited_models()
 
