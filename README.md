@@ -20,6 +20,8 @@ addon | version | summary
 --- | --- | ---
 [auditlog](auditlog/) | 10.0.1.0.0 | Audit Log
 [auth_signup_verify_email](auth_signup_verify_email/) | 10.0.1.0.0 | Force uninvited users to use a good email for signup
+[auth_supplier](auth_supplier/) | 10.0.1.0.0 | Auth Supplier
+[auth_user_case_insensitive](auth_user_case_insensitive/) | 10.0.1.0.0 | Makes the user login field case insensitive
 [auto_backup](auto_backup/) | 10.0.1.0.2 | Backups database
 [base_exception](base_exception/) | 10.0.1.0.0 | This module provide an abstract model to manage customizable exceptions to be applied on different models (sale order, invoice, ...)
 [base_external_dbsource](base_external_dbsource/) | 10.0.2.0.0 | External Database Sources
@@ -38,6 +40,7 @@ addon | version | summary
 [base_technical_features](base_technical_features/) | 10.0.1.0.0 | Access to technical features without activating debug mode
 [base_user_gravatar](base_user_gravatar/) | 10.0.1.0.0 | Synchronize Gravatar Image
 [base_user_role](base_user_role/) | 10.0.1.0.0 | User roles
+[configuration_helper](configuration_helper/) | 10.0.1.0.0 | Configuration Helper
 [date_range](date_range/) | 10.0.1.0.0 | Manage all kind of date range
 [dbfilter_from_header](dbfilter_from_header/) | 10.0.1.0.0 | Filter databases with HTTP headers
 [disable_odoo_online](disable_odoo_online/) | 10.0.1.0.0 | Remove odoo.com Bindings
@@ -46,10 +49,12 @@ addon | version | summary
 [mass_editing](mass_editing/) | 10.0.1.0.0 | Mass Editing
 [mass_sorting](mass_sorting/) | 10.0.1.0.0 | Sort any models by any fields list
 [module_prototyper](module_prototyper/) | 10.0.1.0.0 | Prototype your module.
+[onchange_helper](onchange_helper/) | 10.0.1.0.0 | Technical module that ease execution of onchange in Python code
 [password_security](password_security/) | 10.0.1.0.1 | Allow admin to set password security requirements.
 [scheduler_error_mailer](scheduler_error_mailer/) | 10.0.1.0.0 | Scheduler Error Mailer
 [server_environment](server_environment/) | 10.0.1.2.0 | move some configurations out of the database
 [server_environment_files_sample](server_environment_files_sample/) | 10.0.1.0.0 | sample config file for server_environment
+[user_immutable](user_immutable/) | 10.0.1.0.0 | Add Immutable User Support
 [users_ldap_mail](users_ldap_mail/) | 10.0.1.0.0 | LDAP mapping for user name and e-mail
 [users_ldap_populate](users_ldap_populate/) | 10.0.1.0.0 | LDAP Populate
 
@@ -66,12 +71,10 @@ addon | version | summary
 [auth_from_http_basic_logout](auth_from_http_basic_logout/) | 1.0 (unported) | Authenticate via HTTP basic authentication (logout helper)
 [auth_from_http_remote_user](auth_from_http_remote_user/) | 8.0.1.0.0 (unported) | Authenticate via HTTP Remote User
 [auth_session_timeout](auth_session_timeout/) | 9.0.1.0.0 (unported) | This module disable all inactive sessions since a given delay
-[auth_supplier](auth_supplier/) | 9.0.2.0.0 (unported) | Auth Supplier
 [base_custom_info](base_custom_info/) | 9.0.1.0.0 (unported) | Add custom field in models
 [base_debug4all](base_debug4all/) | 8.0.1.0.0 (unported) | Shows full debug options for all users
 [base_export_manager](base_export_manager/) | 9.0.1.1.0 (unported) | Manage model export profiles
 [base_report_auto_create_qweb](base_report_auto_create_qweb/) | 9.0.1.0.0 (unported) | Report qweb auto generation
-[configuration_helper](configuration_helper/) | 9.0.1.0.0 (unported) | Configuration Helper
 [database_cleanup](database_cleanup/) | 9.0.1.0.0 (unported) | Database cleanup
 [dead_mans_switch_client](dead_mans_switch_client/) | 9.0.1.0.1 (unported) | Be notified when customers' odoo instances go down
 [email_template_template](email_template_template/) | 1.0 (unported) | Templates for email templates
@@ -83,7 +86,6 @@ addon | version | summary
 [letsencrypt](letsencrypt/) | 9.0.1.0.0 (unported) | Request SSL certificates from letsencrypt.org
 [menu_technical_info](menu_technical_info/) | 9.0.1.0.0 (unported) | Fast way to look up technical info about menu item.
 [mgmtsystem_kpi](mgmtsystem_kpi/) | 7.0.1.1.1 (unported) | Key Performance Indicator
-[qweb_usertime](qweb_usertime/) | 8.0.1.0.0 (unported) | Add user time rendering support in QWeb
 [res_config_settings_enterprise_remove](res_config_settings_enterprise_remove/) | 9.0.1.0.0 (unported) | Remove fields in all settings views marked as enterprise
 [security_protector](security_protector/) | 0.1 (unported) | Security protector
 [server_env_base_external_referentials](server_env_base_external_referentials/) | 1.0 (unported) | Server environment for base_external_referential
