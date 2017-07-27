@@ -18,6 +18,7 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
+[attachment_base_synchronize](attachment_base_synchronize/) | 10.0.1.0.0 | Attachment Base Synchronize
 [auditlog](auditlog/) | 10.0.1.0.0 | Audit Log
 [auth_signup_verify_email](auth_signup_verify_email/) | 10.0.1.0.0 | Force uninvited users to use a good email for signup
 [auth_supplier](auth_supplier/) | 10.0.1.0.0 | Auth Supplier
@@ -31,6 +32,7 @@ addon | version | summary
 [base_external_dbsource_odbc](base_external_dbsource_odbc/) | 10.0.1.0.0 | External Database Source - ODBC
 [base_external_dbsource_oracle](base_external_dbsource_oracle/) | 10.0.1.0.0 | External Database Source - Oracle
 [base_external_dbsource_sqlite](base_external_dbsource_sqlite/) | 10.0.1.0.0 | External Database Source - SQLite
+[base_import_security_group](base_import_security_group/) | 10.0.1.0.0 | Group-based permissions for importing CSV files
 [base_kanban_stage](base_kanban_stage/) | 10.0.1.0.0 | Provides stage model and abstract logic for inheritance
 [base_kanban_stage_state](base_kanban_stage_state/) | 10.0.1.0.0 | Maps stages from base_kanban_stage to states
 [base_multi_image](base_multi_image/) | 10.0.1.0.0 | Allow multiple images for database objects
@@ -41,19 +43,23 @@ addon | version | summary
 [base_user_gravatar](base_user_gravatar/) | 10.0.1.0.0 | Synchronize Gravatar Image
 [base_user_role](base_user_role/) | 10.0.1.0.0 | User roles
 [configuration_helper](configuration_helper/) | 10.0.1.0.0 | Configuration Helper
-[date_range](date_range/) | 10.0.1.0.0 | Manage all kind of date range
+[date_range](date_range/) | 10.0.1.0.1 | Manage all kind of date range
 [datetime_formatter](datetime_formatter/) | 10.0.1.0.0 | Helper functions to give correct format to date[time] fields
 [dbfilter_from_header](dbfilter_from_header/) | 10.0.1.0.0 | Filter databases with HTTP headers
 [disable_odoo_online](disable_odoo_online/) | 10.0.1.0.0 | Remove odoo.com Bindings
+[html_image_url_extractor](html_image_url_extractor/) | 10.0.1.0.0 | Extract images found in any HTML field
+[html_text](html_text/) | 10.0.1.0.0 | Generate excerpts from any HTML field
 [keychain](keychain/) | 10.0.1.0.0 | Store accounts and credentials
 [mail_environment](mail_environment/) | 10.0.1.0.0 | Configure mail servers with server_environment_files
 [mass_editing](mass_editing/) | 10.0.1.0.0 | Mass Editing
 [mass_sorting](mass_sorting/) | 10.0.1.0.0 | Sort any models by any fields list
+[module_auto_update](module_auto_update/) | 10.0.1.0.0 | Automatically update Odoo modules
 [module_prototyper](module_prototyper/) | 10.0.1.0.0 | Prototype your module.
 [onchange_helper](onchange_helper/) | 10.0.1.0.0 | Technical module that ease execution of onchange in Python code
 [password_security](password_security/) | 10.0.1.0.1 | Allow admin to set password security requirements.
 [res_config_settings_enterprise_remove](res_config_settings_enterprise_remove/) | 10.0.1.0.0 | Remove fields in all settings views marked as enterprise
 [scheduler_error_mailer](scheduler_error_mailer/) | 10.0.1.0.0 | Scheduler Error Mailer
+[sentry](sentry/) | 10.0.1.0.0 | Report Odoo errors to Sentry
 [server_environment](server_environment/) | 10.0.1.2.0 | move some configurations out of the database
 [server_environment_files_sample](server_environment_files_sample/) | 10.0.1.0.0 | sample config file for server_environment
 [server_environment_ir_config_parameter](server_environment_ir_config_parameter/) | 10.0.1.0.0 | Override System Parameters from server environment file
@@ -68,7 +74,6 @@ Unported addons
 addon | version | summary
 --- | --- | ---
 [admin_technical_features](admin_technical_features/) | 9.0.0.1.0 (unported) | Checks the technical features box for admin user.
-[attachment_base_synchronize](attachment_base_synchronize/) | 9.0.1.0.0 (unported) | Attachment Base Synchronize
 [auth_admin_passkey](auth_admin_passkey/) | 8.0.2.1.1 (unported) | Authentification - Admin Passkey
 [auth_dynamic_groups](auth_dynamic_groups/) | 8.0.1.0.0 (unported) | Have membership conditions for certain groups
 [auth_from_http_basic](auth_from_http_basic/) | 1.0 (unported) | Authenticate via HTTP basic authentication
