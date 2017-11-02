@@ -36,6 +36,8 @@ addon | version | summary
 [base_external_dbsource_odbc](base_external_dbsource_odbc/) | 10.0.1.0.0 | External Database Source - ODBC
 [base_external_dbsource_oracle](base_external_dbsource_oracle/) | 10.0.1.0.0 | External Database Source - Oracle
 [base_external_dbsource_sqlite](base_external_dbsource_sqlite/) | 10.0.1.0.0 | External Database Source - SQLite
+[base_external_system](base_external_system/) | 10.0.1.0.0 | Data models allowing for connection to external systems.
+[base_fontawesome](base_fontawesome/) | 10.0.4.7.0 | Up to date Fontawesome resources.
 [base_import_default_enable_tracking](base_import_default_enable_tracking/) | 10.0.1.0.0 | This modules simply enables history tracking when doing an import.
 [base_import_match](base_import_match/) | 10.0.1.0.0 | Try to avoid duplicates before importing
 [base_import_security_group](base_import_security_group/) | 10.0.1.0.0 | Group-based permissions for importing CSV files
@@ -45,12 +47,14 @@ addon | version | summary
 [base_manifest_extension](base_manifest_extension/) | 10.0.1.0.0 | Adds useful keys to manifest files
 [base_multi_image](base_multi_image/) | 10.0.1.0.0 | Allow multiple images for database objects
 [base_optional_quick_create](base_optional_quick_create/) | 10.0.1.0.0 | Avoid 'quick create' on m2o fields, on a 'by model' basis
+[base_report_auto_create_qweb](base_report_auto_create_qweb/) | 10.0.1.0.0 | Report qweb auto generation
 [base_search_fuzzy](base_search_fuzzy/) | 10.0.1.1.0 | Fuzzy search with the PostgreSQL trigram extension
 [base_suspend_security](base_suspend_security/) | 10.0.1.0.0 | Suspend security checks for a call
 [base_technical_features](base_technical_features/) | 10.0.1.0.0 | Access to technical features without activating debug mode
 [base_technical_user](base_technical_user/) | 10.0.1.0.0 | Add a technical user parameter on the company
-[base_user_gravatar](base_user_gravatar/) | 10.0.1.0.0 | Synchronize Gravatar Image
+[base_user_gravatar](base_user_gravatar/) | 10.0.1.0.1 | Synchronize Gravatar Image
 [base_user_role](base_user_role/) | 10.0.1.0.0 | User roles
+[base_view_inheritance_extension](base_view_inheritance_extension/) | 10.0.1.0.1 | Adds more operators for view inheritance
 [configuration_helper](configuration_helper/) | 10.0.1.0.0 | Configuration Helper
 [database_cleanup](database_cleanup/) | 10.0.1.0.0 | Database cleanup
 [date_range](date_range/) | 10.0.1.0.2 | Manage all kind of date range
@@ -76,6 +80,7 @@ addon | version | summary
 [server_environment](server_environment/) | 10.0.1.2.0 | move some configurations out of the database
 [server_environment_files_sample](server_environment_files_sample/) | 10.0.1.0.0 | sample config file for server_environment
 [server_environment_ir_config_parameter](server_environment_ir_config_parameter/) | 10.0.1.0.1 | Override System Parameters from server environment file
+[sql_request_abstract](sql_request_abstract/) | 10.0.1.0.0 | Abstract Model to manage SQL Requests
 [user_immutable](user_immutable/) | 10.0.1.0.0 | Add Immutable User Support
 [user_threshold](user_threshold/) | 10.0.1.0.1 | Add Configurable User Threshold Support
 [users_ldap_mail](users_ldap_mail/) | 10.0.1.0.0 | LDAP mapping for user name and e-mail
@@ -94,7 +99,6 @@ addon | version | summary
 [auth_from_http_remote_user](auth_from_http_remote_user/) | 8.0.1.0.0 (unported) | Authenticate via HTTP Remote User
 [auth_session_timeout](auth_session_timeout/) | 9.0.1.0.0 (unported) | This module disable all inactive sessions since a given delay
 [base_custom_info](base_custom_info/) | 9.0.1.0.0 (unported) | Add custom field in models
-[base_report_auto_create_qweb](base_report_auto_create_qweb/) | 9.0.1.0.0 (unported) | Report qweb auto generation
 [dead_mans_switch_client](dead_mans_switch_client/) | 9.0.1.0.1 (unported) | Be notified when customers' odoo instances go down
 [email_template_template](email_template_template/) | 1.0 (unported) | Templates for email templates
 [fetchmail_attach_from_folder](fetchmail_attach_from_folder/) | 8.0.1.0.1 (unported) | Attach mails in an IMAP folder to existing objects
