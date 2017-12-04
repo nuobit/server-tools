@@ -22,7 +22,7 @@ addon | version | summary
 [auditlog](auditlog/) | 10.0.1.0.0 | Audit Log
 [auth_admin_passkey](auth_admin_passkey/) | 10.0.1.0.0 | Authentification - Admin Passkey
 [auth_brute_force](auth_brute_force/) | 10.0.1.0.0 | Tracks Authentication Attempts and Prevents Brute-force Attacks module
-[auth_session_timeout](auth_session_timeout/) | 10.0.1.0.0 | This module disable all inactive sessions since a given delay
+[auth_session_timeout](auth_session_timeout/) | 10.0.1.0.1 | This module disable all inactive sessions since a given delay
 [auth_signup_verify_email](auth_signup_verify_email/) | 10.0.1.0.0 | Force uninvited users to use a good email for signup
 [auth_supplier](auth_supplier/) | 10.0.1.0.0 | Auth Supplier
 [auth_totp](auth_totp/) | 10.0.1.0.0 | Allows users to enable MFA and add optional trusted devices
@@ -74,7 +74,7 @@ addon | version | summary
 [module_auto_update](module_auto_update/) | 10.0.1.0.1 | Automatically update Odoo modules
 [module_prototyper](module_prototyper/) | 10.0.1.0.0 | Prototype your module.
 [onchange_helper](onchange_helper/) | 10.0.1.0.0 | Technical module that ease execution of onchange in Python code
-[password_security](password_security/) | 10.0.1.1.0 | Allow admin to set password security requirements.
+[password_security](password_security/) | 10.0.1.1.1 | Allow admin to set password security requirements.
 [res_config_settings_enterprise_remove](res_config_settings_enterprise_remove/) | 10.0.1.0.0 | Remove fields in all settings views marked as enterprise
 [scheduler_error_mailer](scheduler_error_mailer/) | 10.0.1.0.0 | Scheduler Error Mailer
 [sentry](sentry/) | 10.0.1.0.0 | Report Odoo errors to Sentry
